@@ -1,0 +1,55 @@
+
+*{
+    margin: 0%;
+    padding: 0;
+}
+.programerdeIta{
+    background-color: aliceblue;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tittle{
+  text-align: center;
+    margin: 10px;
+    padding-top: 40px;
+}
+.text{
+    text-align: center;
+}
+
+.projeto-cld{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0,0, 0.7);
+    border-radius: 15px;
+    padding: 15px;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: yellow ;
+    margin: 1px;
+}
+.button:hover{
+    background-color: black;
+}
+#result{
+    width: 215px;
+    border-radius: 7px;
+    height: 30px;
+    color: black;
+    background-color:aquamarine;
+    font-size: 19px;
+    margin: 2px;
+    padding: 2px;
+    text-align: right;
+}
+
